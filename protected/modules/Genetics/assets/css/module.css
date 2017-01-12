@@ -48,3 +48,8 @@
 #enteredDiagnosisText .clear-diagnosis-widget {
   cursor: pointer;
 }
+
+/* line 26, ../sass/module.scss */
+#Pedigree_gene_transcript.error {
+  background: #FF9494;
+}
