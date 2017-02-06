@@ -45,7 +45,6 @@
 			</div>
 			<div class="active-form">
 				<a href="#" class="icon-remove-side remove-side">Remove side</a>
-				<?php $this->renderPartial('form_Element_OphInBiometry_Measurement_fields', array('side' => 'right', 'element' => $element, 'form' => $form, 'data' => $data, 'measurementInput' => $iolRefValues)); ?>
 			</div>
 			<div class="inactive-form">
 				<div class="add-side">
@@ -53,6 +52,9 @@
 						Add Right side <span class="icon-add-side"></span>
 					</a>
 				</div>
+			</div>
+			<div class="active-form">
+				<?php $this->renderPartial('form_Element_OphInBiometry_Measurement_fields', array('side' => 'right', 'element' => $element, 'form' => $form, 'data' => $data, 'measurementInput' => $iolRefValues)); ?>
 			</div>
 		</div>
 		<div id="left-eye-lens" class="element-eye left-eye top-pad right side column <?php if (!$element->hasLeft()) {
@@ -63,7 +65,6 @@
 			</div>
 			<div class="active-form">
 				<a href="#" class="icon-remove-side remove-side">Remove side</a>
-				<?php $this->renderPartial('form_Element_OphInBiometry_Measurement_fields', array('side' => 'left', 'element' => $element, 'form' => $form, 'data' => $data, 'measurementInput' => $iolRefValues)); ?>
 			</div>
 			<div class="inactive-form">
 				<div class="add-side">
@@ -71,6 +72,9 @@
 						Add left side <span class="icon-add-side"></span>
 					</a>
 				</div>
+			</div>
+			<div class="active-form">
+				<?php $this->renderPartial('form_Element_OphInBiometry_Measurement_fields', array('side' => 'left', 'element' => $element, 'form' => $form, 'data' => $data, 'measurementInput' => $iolRefValues)); ?>
 			</div>
 		</div>
 	</div>
